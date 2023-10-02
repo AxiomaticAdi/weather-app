@@ -41,9 +41,19 @@ document.addEventListener("DOMContentLoaded", function () {
 	const locationInput = document.getElementById("location-input");
 	const button = document.getElementById("submit-button");
 
+	// Event listener for button click
 	button.addEventListener("click", function () {
 		const userInput = locationInput.value;
 		getWeatherData(userInput);
+	});
+
+	// Event listener for "enter" keypress
+	locationInput.addEventListener("keydown", function (event) {
+		// Check if the pressed key is "Enter"
+		if (event.key === "Enter") {
+			const userInput = locationInput.value;
+			getWeatherData(userInput);
+		}
 	});
 });
 
