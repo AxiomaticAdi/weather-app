@@ -1,3 +1,8 @@
+* {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 1rem;
+}
+
 body {
 	display: flex;
 	flex-direction: column;
@@ -5,6 +10,9 @@ body {
 	align-items: center;
 	gap: 2rem;
 	height: 100vh;
+	background-image: url("./images/pexels-aleksandar-pasaric-325185.jpg");
+	background-size: cover;
+	background-position: center center;
 }
 
 .weather-data-container {
@@ -20,4 +28,13 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+
+	color: black;
+	text-shadow: 1px 1px 2px white;
+}
+
+footer {
+	position: absolute;
+	bottom: 15px;
+	font-size: x-small;
 }
