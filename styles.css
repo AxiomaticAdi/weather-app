@@ -8,11 +8,23 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	gap: 2rem;
 	height: 100vh;
 	background-image: url("./images/pexels-aleksandar-pasaric-325185.jpg");
 	background-size: cover;
 	background-position: center center;
+}
+
+#transparent-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 2rem;
+
+	/* Semi-transparent container for legibility */
+	background-color: rgba(189, 189, 182, 0.1);
+	padding: 2rem;
+	border-radius: 25px;
 }
 
 .weather-data-container {
