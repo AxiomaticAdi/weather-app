@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>NAWA</title>
+  </head>
+  <body>
+    <form>
+      <label for="location-input">City or Zip:</label>
+      <input type="text" id="location-input" text="San Diego" />
+      <input type="submit" id="submit-button" />
+    </form>
+
+    <div class="weather-data-container">
+      <div class="category-data-container">
+        <b>Location:</b>
+        <div id="location-box"></div>
+      </div>
+      <div class="category-data-container">
+        <b>Temperature:</b>
+        <div id="temperature-box"></div>
+      </div>
+      <div class="category-data-container">
+        <b>Conditions:</b>
+        <div id="weather-box">weatherData</div>
+        <img id="weather-icon" src="" />
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
