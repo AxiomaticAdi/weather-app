@@ -6,24 +6,35 @@
     <title>NAWA</title>
   </head>
   <body>
-    <div id="form-container">
-      <input type="text" id="location-input" value="San Diego" />
-      <button id="submit-button">Get weather</button>
-    </div>
+    <div id="transparent-container">
+      <div id="form-container">
+        <input type="text" id="location-input" value="San Diego" />
+        <button id="submit-button">Get weather</button>
+      </div>
 
-    <div class="weather-data-container">
-      <div class="category-data-container">
-        <b>Location:</b>
-        <div class="data-output" id="location-box"></div>
-      </div>
-      <div class="category-data-container">
-        <b>Temperature:</b>
-        <div class="data-output" id="temperature-box"></div>
-      </div>
-      <div class="category-data-container">
-        <b>Conditions:</b>
-        <div id="weather-box">weatherData</div>
-        <img class="data-output" id="weather-icon" src="" />
+      <div class="weather-data-container">
+        <div class="category-data-container">
+          <b>Location:</b>
+          <div class="data-output" id="location-box"></div>
+        </div>
+        <div class="category-data-container">
+          <b>Local time:</b>
+          <div class="data-output" id="time-box"></div>
+        </div>
+        <div class="category-data-container">
+          <b>Temperature:</b>
+          <div class="data-output" id="temperature-box"></div>
+        </div>
+        <div class="category-data-container">
+          <b>Conditions:</b>
+          <div id="weather-box">weatherData</div>
+          <img
+            class="data-output"
+            id="weather-icon"
+            src=""
+            style="padding-top: 1rem; padding-bottom: 0"
+          />
+        </div>
       </div>
     </div>
 
