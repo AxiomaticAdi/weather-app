@@ -1,12 +1,12 @@
 {
-  "useTabs": true,
-  "overrides": [
-    {
-      "files": "*.html",
-      "options": {
-        "tabWidth": 2,
-        "useTabs": false
-      }
-    }
-  ]
+	"useTabs": true,
+	"overrides": [
+		{
+			"files": "*.html",
+			"options": {
+				"tabWidth": 4,
+				"useTabs": false
+			}
+		}
+	]
 }

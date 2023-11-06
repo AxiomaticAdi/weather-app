@@ -1,63 +1,64 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="styles.css" />
-    <title>NAWA</title>
-  </head>
-  <body>
-    <div id="transparent-container">
-      <div id="form-container">
-        <input type="text" id="location-input" value="San Diego" />
-        <button id="submit-button">Get weather</button>
-      </div>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles.css" />
+        <title>NAWA</title>
+    </head>
+    <body>
+        <div id="transparent-container">
+            <div id="form-container">
+                <input type="text" id="location-input" value="San Diego" />
+                <button id="submit-button">Get weather</button>
+            </div>
 
-      <div class="weather-data-container">
-        <div class="category-data-container">
-          <b>Location:</b>
-          <div class="data-output" id="location-box"></div>
+            <div class="weather-data-container">
+                <div class="category-data-container">
+                    <b>Location:</b>
+                    <div class="data-output" id="location-box"></div>
+                </div>
+                <div class="category-data-container">
+                    <b>Local time:</b>
+                    <div class="data-output" id="time-box"></div>
+                </div>
+                <div class="category-data-container">
+                    <b>Temperature:</b>
+                    <div class="data-output" id="temperature-box"></div>
+                </div>
+                <div class="category-data-container">
+                    <b>Conditions:</b>
+                    <div id="weather-box">weatherData</div>
+                    <img
+                        class="data-output"
+                        id="weather-icon"
+                        src=""
+                        style="padding-top: 1rem; padding-bottom: 0"
+                    />
+                </div>
+            </div>
         </div>
-        <div class="category-data-container">
-          <b>Local time:</b>
-          <div class="data-output" id="time-box"></div>
-        </div>
-        <div class="category-data-container">
-          <b>Temperature:</b>
-          <div class="data-output" id="temperature-box"></div>
-        </div>
-        <div class="category-data-container">
-          <b>Conditions:</b>
-          <div id="weather-box">weatherData</div>
-          <img
-            class="data-output"
-            id="weather-icon"
-            src=""
-            style="padding-top: 1rem; padding-bottom: 0"
-          />
-        </div>
-      </div>
-    </div>
 
-    <script src="./script.js"></script>
-  </body>
-  <footer>
-    <a href="https://github.com/AxiomaticAdi/">
-      <img
-        src="./images/github-mark.svg"
-        height="40px"
-        width="auto"
-        title="my github"
-        alt="my github"
-      />
-    </a>
-    <a href="https://www.pexels.com/photo/view-of-cityscape-325185/">
-      <img
-        src="./images/pexels_photo_icon.svg"
-        height="50px"
-        width="auto"
-        title="Photo by Aleksandar Pasaric from Pexels"
-        alt="Photo by Aleksandar Pasaric from Pexels"
-      />
-    </a>
-  </footer>
+        <script src="./script.js"></script>
+    </body>
+    <footer>
+        <a href="https://github.com/AxiomaticAdi/">
+            <img
+                src="./images/github-mark.svg"
+                height="40px"
+                width="auto"
+                title="my github"
+                alt="my github"
+            />
+        </a>
+        <a href="https://www.pexels.com/photo/view-of-cityscape-325185/">
+            <img
+                src="./images/pexels_photo_icon.svg"
+                height="50px"
+                width="auto"
+                title="Photo by Aleksandar Pasaric from Pexels"
+                alt="Photo by Aleksandar Pasaric from Pexels"
+            />
+        </a>
+    </footer>
 </html>
